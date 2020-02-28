@@ -3,8 +3,15 @@ console.log("Abstraction and Rendering slides javascript");
 
 // Tic Tac Toe
 
+var board = [["O", "", "0"],
+["O", "X", "X"],
+["X", "X", "0"],
+];
 
-
+console.log("");
+console.log("");
+console.log("Tic Tac Toe Board:")
+console.log(board);
 
 // Pokemon
 
@@ -27,8 +34,10 @@ var pokemon = [
     level: 11,
     hp: 50
   }
-]
+];
 
+console.log("");
+console.log("");
 console.log('The Pokemon are...');
 console.log(pokemon);
 
@@ -181,7 +190,11 @@ var basketBallGame = [
 
 
 
-]
+];
+
+console.log("");
+console.log("");
+console.log("Basketball Game:")
 console.log(basketBallGame)
 
 // Band on Spotify
@@ -207,9 +220,12 @@ var band = [{
     isTop5: true
   }]
 }]
-]
+];
 
-console.log(band)
+console.log("");
+console.log("");
+console.log("Spotify Band:");
+console.log(band);
 
 
 // Mint Budget
@@ -239,6 +255,10 @@ var user = {
   }],
 
 }
-console.log("Mint Accounts and Budgets ")
-console.log(user);
+console.log("");
+console.log("");
+console.log("Mint Accounts and Budgets:");
+console.log(user);;
+
+
 // Each budget item will have a relationship with an transaction. Also the way these relationships work will be used with databases soon.
